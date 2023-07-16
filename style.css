@@ -1,0 +1,336 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+}
+
+.head {
+	height: 100vh;
+	background-image: url('img/background/head.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.head__container {
+	position: relative;
+}
+
+.container {
+	width: 110rem;
+}
+
+.head__logo {
+	height: 20%;
+	padding-top: 6rem;
+	margin-bottom: 3rem;
+	border-right: solid 2px #ECE58E;
+}
+
+.logo {
+	width: 17.5rem;
+	height: 7rem;
+	background-image: url('img/logo/logo-head.svg');
+	background-repeat: no-repeat;
+}
+
+.head__title-nav {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.head__block--title {}
+
+.head__title--profession {}
+
+.head__title {}
+
+.title--profession {
+	color: #FFF678;
+	font-size: 3rem;
+	font-weight: 600;
+	line-height: 120%;
+	margin-bottom: 1rem;
+}
+
+.head-title {
+	color: #FFF8F8;
+	font-family: Bebas Neue;
+	font-size: 15.4rem;
+	line-height: 82.023%;
+	margin-left: -0.5rem;
+}
+
+.head__title--surname {}
+
+.title-surname {}
+
+.head__title--name-btn {
+	display: flex;
+}
+
+.title-name {}
+
+.head__btn-wrap {
+	position: relative;
+	margin-top: 3rem;
+	margin-left: 4rem;
+}
+
+.head__btn-contact-me {
+	position: absolute;
+	top: -0.5rem;
+	left: 0.5rem;
+	width: 22rem;
+	height: 8rem;
+	background-color: #FDEC0B;
+	box-shadow: -3px -4px 6px 0px rgba(0, 0, 0, 0.25) inset;
+	transform: skew(-30deg);
+	border-radius: .75rem;
+	transition: top .2s, left .2s;
+}
+
+.head__btn-contact-me--add-elem {
+	position: absolute;
+	top: 0.5rem;
+	left: -0.5rem;
+	width: 22rem;
+	height: 8rem;
+	transform: skew(-30deg);
+	border-radius: .75rem;
+	border: solid 2px #6A6E71;
+	transition-property: top, left, color;
+	transition-duration: .2s;
+}
+
+.head__btn-wrap:hover>.head__btn-contact-me {
+	top: -.75rem;
+	left: .75rem;
+}
+
+.head__btn-wrap:hover>.head__btn-contact-me--add-elem {
+	top: .75rem;
+	left: -.75rem;
+}
+
+.head__btn-wrap:active>.head__btn-contact-me {
+	box-shadow: 6px -4px 8px 0px rgba(0, 0, 0, 0.25) inset;
+	top: 0;
+	left: 0;
+}
+
+.head__btn-wrap:active>.head__btn-contact-me--add-elem {
+	top: 0;
+	left: 0;
+}
+
+.head__btn-text {
+	color: #222629;
+	font-size: 2rem;
+	line-height: 156.023%;
+	transform: skew(30deg);
+}
+
+.head__block--nav {
+	position: absolute;
+	right: 0;
+}
+
+.head__nav-list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 2.5rem;
+}
+
+.head__nav-item {}
+
+.head__nav-link {
+	color: rgba(255, 255, 255, 0.60);
+	font-family: Bebas Neue;
+	font-size: 2rem;
+	letter-spacing: .05rem;
+}
+
+.head__contacts {
+	position: absolute;
+	bottom: 10%;
+	left: 8rem;
+}
+
+.head__contacts-list {
+	display: flex;
+	gap: 3rem;
+}
+
+.head__contact-item {}
+
+.head__contact-link {}
+
+.head__contact-icon {
+	width: 4rem;
+	height: 4rem;
+}
+
+.head__contact-icon--telegram {
+	background: url('img/icon/head-telegram.svg') no-repeat center;
+}
+
+.head__contact-icon--email {
+	background: url('img/icon/head-email.svg') no-repeat center;
+}
+
+.head__contact-icon--whatsapp {
+	background: url('img/icon/head-whatsapp.svg') no-repeat center;
+}
+
+.about {}
+
+.about__container {}
+
+.about__block--description {}
+
+.about__img {}
+
+.about__description {}
+
+.about__title {}
+
+.title {}
+
+.about__wrap-text {}
+
+.about__text {}
+
+.about__text-hi {}
+
+.about__block--exclusion {}
+
+.about__exclusion-list {}
+
+.about__exclusion-item {}
+
+.blog {}
+
+.blog__container {}
+
+.blog__block--title {}
+
+.blog__title {}
+
+.blog__block--description {}
+
+.blog__img {}
+
+.blog__wrapper {}
+
+.blog__wrap-text {}
+
+.blog__text {}
+
+.blog__text--yellow {}
+
+.blog__wrap-links {}
+
+.blog__wrap-link {}
+
+.blog__link {}
+
+.blog__link-text {}
+
+.blog__link-text--bold {}
+
+.blog__link-btn {}
+
+.profile {}
+
+.profile__container {}
+
+.profile__block--portfolio {}
+
+.profile__block {}
+
+.profile__wrapper {}
+
+.profile__title {}
+
+.profile__text {}
+
+.profile__text--yellow {}
+
+.yellow {}
+
+.profile__text--github {}
+
+.profile__wrap-btn {}
+
+.profile__link {}
+
+.profile__btn {}
+
+.profile__block--resume {}
+
+.contact {}
+
+.contact__container {}
+
+.contact__block--description {}
+
+.contact__wrap-title {}
+
+.contact__title {}
+
+.contact__subtitle {}
+
+.contact__wrap-links {}
+
+.contact__link-list {}
+
+.contact__link-item {}
+
+.contact__link {}
+
+.contact__btn {}
+
+.contact__btn-icon--telegram {}
+
+.contact__btn-icon {}
+
+.contact__btn-text {}
+
+.contact__btn-icon--email {}
+
+.contact__btn-icon--instagram {}
+
+.contact__btn-icon--vkontakte {}
+
+.contact__btn-icon--whatsapp {}
+
+.contact__block--img {}
+
+.contact__img {}
+
+.footer {}
+
+.footer__container {}
+
+.footer__block--nav {}
+
+.footer__nav-list {}
+
+.footer__nav-item {}
+
+.footer__nav-link {}
+
+.footer__block--copyright {}
+
+.footer__logo {}
+
+.footer__copyright {}
