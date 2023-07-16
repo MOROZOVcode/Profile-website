@@ -14,7 +14,6 @@ section {
 .head {
 	height: 100vh;
 	background-image: url('img/background/head.png');
-	background-repeat: no-repeat;
 	background-position: top center;
 }
 
@@ -191,31 +190,89 @@ section {
 	background: url('img/icon/head-whatsapp.svg') no-repeat center;
 }
 
-.about {}
+.about {
+	background: #FDEC0B;
+}
 
 .about__container {}
 
-.about__block--description {}
+.about__block--description {
+	display: flex;
+	height: 41.5rem;
+	padding-top: 9.5rem;
+	margin-bottom: 8.5rem;
+}
 
-.about__img {}
+.about__img {
+	width: 38rem;
+	height: 33rem;
+	background: url('img/daniil-hi.png') no-repeat center;
+}
 
-.about__description {}
+.about__description {
+	padding-left: 7rem;
+}
 
-.about__title {}
+.title {
+	font-family: Bebas Neue;
+	font-size: 10rem;
+}
 
-.title {}
+.about__title {
+	height: 10rem;
+	display: flex;
+	align-items: center;
+	color: #474A4F;
+	border-left: 1rem solid #FFF;
+	padding-left: 2rem;
+}
 
-.about__wrap-text {}
+.about__wrap-text {
+	padding-top: 3.5rem;
+}
 
-.about__text {}
+.about__text-hi {
+	color: #474A4F;
+	font-size: 2.8rem;
+	font-weight: 500;
+}
 
-.about__text-hi {}
+.about__text {
+	max-width: 63rem;
+	color: #474A4F;
+	font-size: 2rem;
+	line-height: 156.023%;
+}
 
-.about__block--exclusion {}
+.about__block--exclusion {
+	margin-bottom: 10rem;
+}
 
-.about__exclusion-list {}
+.about__exclusion-list {
+	display: flex;
+}
 
-.about__exclusion-item {}
+.about__exclusion-item {
+	height: 9rem;
+	display: flex;
+	align-items: center;
+	flex: 25%;
+	padding: 0 2.2rem;
+	border-right: .3rem solid;
+	color: #474A4F;
+	font-size: 2rem;
+	font-weight: 500;
+	line-height: 130%;
+}
+
+.about__exclusion-item:first-child {
+	padding-left: 0;
+}
+
+.about__exclusion-item:last-child {
+	padding-right: 0;
+	border: unset;
+}
 
 .blog {}
 
