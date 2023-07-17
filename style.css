@@ -155,7 +155,18 @@ section {
 	color: rgba(255, 255, 255, 0.60);
 	font-family: Bebas Neue;
 	font-size: 2rem;
-	letter-spacing: .05rem;
+	letter-spacing: .06rem;
+	transition: color .3s, font-size .4s;
+}
+
+.head__nav-link:hover {
+	color: #FFF678;
+	font-size: 3.5rem;
+}
+
+.head__nav-link:active {
+	color: #fff6789a;
+	font-size: 3.2rem;
 }
 
 .head__contacts {
@@ -176,6 +187,15 @@ section {
 .head__contact-icon {
 	width: 4rem;
 	height: 4rem;
+	transition: transform .3s;
+}
+
+.head__contact-icon:hover {
+	transform: scale(1.5);
+}
+
+.head__contact-icon:active {
+	transform: scale(1.1);
 }
 
 .head__contact-icon--telegram {
