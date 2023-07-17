@@ -459,45 +459,134 @@ section {
 
 .profile__block--resume {}
 
-.contact {}
+.contact {
+	background-color: #222629;
+}
 
-.contact__container {}
+.contact__container {
+	height: 68rem;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
 
-.contact__block--description {}
+.contact__block--description {
+	height: 49rem;
+	width: 42rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	z-index: 10;
+}
 
 .contact__wrap-title {}
 
-.contact__title {}
+.contact__title {
+	height: 10rem;
+	display: flex;
+	align-items: center;
+	padding-left: 2rem;
+	border-left: 1rem solid #FFF;
+	color: #FFF678;
+	margin-bottom: 1.5rem;
+}
 
-.contact__subtitle {}
+.contact__subtitle {
+	width: 38rem;
+	color: #FFF;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+
+}
 
 .contact__wrap-links {}
 
-.contact__link-list {}
+.contact__link-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: -2rem;
+}
 
-.contact__link-item {}
+.contact__link-item {
+	width: 20rem;
+	height: 7rem;
+	border-radius: 0.8rem;
+	border: 2px solid rgba(255, 255, 255, 0.10);
+	background: rgba(255, 255, 255, 0.10);
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+	padding-left: 2.6rem;
+	margin-bottom: 2rem;
+	transition: background-color .3s;
+}
 
-.contact__link {}
+.contact__link-item:last-child {
+	margin-bottom: unset;
+}
 
-.contact__btn {}
+.contact__link-item:hover {
+	background: rgba(255, 255, 255, 0.25);
+}
 
-.contact__btn-icon--telegram {}
+.contact__link {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
 
-.contact__btn-icon {}
+.contact__btn {
+	height: 100%;
+	display: flex;
+}
 
-.contact__btn-text {}
+.contact__btn-text {
+	display: flex;
+	align-items: center;
+	color: #FFF;
+	font-size: 2rem;
+}
 
-.contact__btn-icon--email {}
+.contact__btn-icon {
+	width: 3.5rem;
+	height: 100%;
+	margin-right: 2rem;
+}
 
-.contact__btn-icon--instagram {}
+.contact__btn-icon--telegram {
+	background: url('img/icon/contact-telegram.svg') no-repeat center;
+}
 
-.contact__btn-icon--vkontakte {}
+.contact__btn-icon--email {
+	background: url('img/icon/contact-email.svg') no-repeat center;
+}
 
-.contact__btn-icon--whatsapp {}
+.contact__btn-icon--instagram {
+	background: url('img/icon/contact-instagram.svg') no-repeat center;
+}
 
-.contact__block--img {}
+.contact__btn-icon--vkontakte {
+	background: url('img/icon/contact-vk.svg') no-repeat center;
+}
 
-.contact__img {}
+.contact__btn-icon--whatsapp {
+	background: url('img/icon/contact-whatsapp.svg') no-repeat center;
+}
+
+.contact__block--img {
+	position: relative;
+	height: 100%;
+	z-index: 1;
+}
+
+.contact__img {
+	position: absolute;
+	left: -14rem;
+	width: 100rem;
+	height: 100%;
+	background: url('img/daniil-work.png') no-repeat bottom;
+}
 
 .footer {}
 
