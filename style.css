@@ -588,20 +588,56 @@ section {
 	background: url('img/daniil-work.png') no-repeat bottom;
 }
 
-.footer {}
+.footer {
+	display: flex;
+	justify-content: center;
+	background: #FFFBC3;
+}
 
-.footer__container {}
+.footer__container {
+	padding-top: 3.5rem;
+}
 
-.footer__block--nav {}
+.footer__block--nav {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1.5rem;
+}
 
-.footer__nav-list {}
+.footer__nav-list {
+	width: 59rem;
+	display: flex;
+	justify-content: space-between;
+}
 
 .footer__nav-item {}
 
-.footer__nav-link {}
+.footer__nav-link {
+	color: #474A4F;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	transition: color .2s;
+}
 
-.footer__block--copyright {}
+.footer__nav-link:hover {
+	color: #000000;
+}
 
-.footer__logo {}
+.footer__block--copyright {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2.5rem;
+}
 
-.footer__copyright {}
+.footer__logo {
+	width: 17.5rem;
+	height: 2rem;
+	background: url('img/logo/logo-footer.svg') no-repeat center;
+}
+
+.footer__copyright {
+	color: #474A4F;
+	font-size: 1.5rem;
+	line-height: 156.023%;
+}
