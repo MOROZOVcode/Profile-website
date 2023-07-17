@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik', 'Tahoma', 'Geneva', sans-serif;
 }
 
 section {
@@ -26,9 +26,9 @@ section {
 }
 
 .head__logo {
-	height: 20%;
+	height: 25%;
 	padding-top: 6rem;
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 	border-right: solid 2px #ECE58E;
 }
 
@@ -61,7 +61,7 @@ section {
 
 .head-title {
 	color: #FFF8F8;
-	font-family: Bebas Neue;
+	font-family: 'Bebas Neue', 'Tahoma', 'Geneva', sans-serif;
 	font-size: 15.4rem;
 	line-height: 82.023%;
 	margin-left: -0.5rem;
@@ -146,10 +146,17 @@ section {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	gap: 2.5rem;
 }
 
-.head__nav-item {}
+.head__nav-item {
+	height: 4.5rem;
+}
+
+.header__nav-link-wrap {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
 
 .head__nav-link {
 	color: rgba(255, 255, 255, 0.60);
@@ -234,7 +241,7 @@ section {
 }
 
 .title {
-	font-family: Bebas Neue;
+	font-family: 'Bebas Neue', 'Tahoma', 'Geneva', sans-serif;
 	font-size: 10rem;
 }
 
@@ -302,7 +309,7 @@ section {
 .blog__container {}
 
 .blog__block--title {
-	padding-top: 8.5rem;
+	padding-top: 7.5rem;
 }
 
 .blog__title {
@@ -312,6 +319,7 @@ section {
 	padding-left: 2rem;
 	border-left: 1rem solid #FFF678;
 	color: rgba(255, 255, 255, 0.60);
+	margin-bottom: 1rem;
 }
 
 .blog__block--description {
@@ -367,11 +375,13 @@ section {
 .blog__link-text {
 	color: #FFF;
 	font-size: 2rem;
+	cursor: default;
 }
 
 .blog__link-text--bold {
 	font-weight: 700;
 	text-decoration-line: underline;
+	cursor: pointer;
 }
 
 .blog__link-btn {}
@@ -389,6 +399,10 @@ section {
 .btn-arrow:hover {
 	border: .3rem solid #d1d1d1;
 	background-color: #ffffff1f;
+}
+
+.btn-arrow:active {
+	background-color: unset;
 }
 
 .profile {
@@ -519,7 +533,7 @@ section {
 	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
 	padding-left: 2.6rem;
 	margin-bottom: 2rem;
-	transition: background-color .3s;
+	transition: background-color .25s;
 }
 
 .contact__link-item:last-child {
@@ -528,6 +542,10 @@ section {
 
 .contact__link-item:hover {
 	background: rgba(255, 255, 255, 0.25);
+}
+
+.contact__link-item:active {
+	background: rgba(255, 255, 255, 0.15);
 }
 
 .contact__link {
@@ -622,6 +640,10 @@ section {
 
 .footer__nav-link:hover {
 	color: #000000;
+}
+
+.footer__nav-link:active {
+	color: #474A4F;
 }
 
 .footer__block--copyright {
