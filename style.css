@@ -351,41 +351,87 @@ section {
 
 .blog__link-text--bold {
 	font-weight: 700;
-	/* line-height: 156.023%; */
 	text-decoration-line: underline;
 }
 
-.blog__link-btn {
+.blog__link-btn {}
+
+.btn-arrow {
 	width: 8.8rem;
 	height: 3.9rem;
 	border: .3rem solid #b6b7b9;
 	border-radius: 1.6rem;
 	background: url('img/icon/btn-arrow.svg') no-repeat center;
 	margin-right: 3rem;
-
+	transition: background-color .2s;
 }
 
-.profile {}
+.btn-arrow:hover {
+	border: .3rem solid #d1d1d1;
+	background-color: #ffffff1f;
+}
 
-.profile__container {}
+.profile {
+	height: 40rem;
+	border-top: 1rem solid #FFF678;
+	border-bottom: 1rem solid #FFF678;
+	background-color: #474A4F;
+}
 
-.profile__block--portfolio {}
+.profile__container {
+	display: flex;
+	justify-content: center;
+}
 
-.profile__block {}
+.profile__block--portfolio {
+	border-right: .5rem solid #FFF678;
+}
+
+.profile__block--resume {
+	border-left: .5rem solid #FFF678;
+}
+
+.profile__block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 50%;
+}
 
 .profile__wrapper {}
 
-.profile__title {}
+.profile__title {
+	color: #FFF;
+}
 
-.profile__text {}
+.profile__text {
+	width: 36.1rem;
+	position: relative;
+	padding-top: 1rem;
+	color: #FFF;
+	font-size: 2rem;
+	line-height: 173.5%;
+	margin-bottom: 3rem;
+}
 
 .profile__text--yellow {}
 
-.yellow {}
+.yellow {
+	color: #FFF678;
+}
 
-.profile__text--github {}
+.profile__text--github {
+	position: absolute;
+	bottom: -1rem;
+	left: 11rem;
+	width: 16rem;
+	height: 4.6rem;
+	background: url('img/icon/github.svg') no-repeat center;
+}
 
-.profile__wrap-btn {}
+.profile__wrap-btn {
+	padding-left: 21.5rem;
+}
 
 .profile__link {}
 
